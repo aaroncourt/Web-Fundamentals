@@ -27,7 +27,7 @@
         <div class="col-l">
 
             <!-- actual video-->
-            <video id="video" src="assets/Vacuuming.mp4" alt="main video" onmouseover="startPreview(this.id)" onmouseout="stopPreview(this.id)"></video>
+            <video id="main-video" src="assets/Vacuuming.mp4" alt="main video" onmouseover="startPreview('#main-video')" onmouseout="stopPreview('#main-video')"></video>
 
             <!-- video info -->
             <div class="row">
@@ -49,23 +49,23 @@
 
             <h3 class="sub-header">Up Next</h3>
 
-            <div class="video-small" id="video1">
-                <video id="video1" src="assets/Rolling.mp4" alt=" video placeholder" class="vid-s"  onmouseover="startPreview(this.id)" onmouseout="stopPreview()"></video>
+            <div class="video-small" >
+                <video id="video-1" src="assets/Rolling.mp4" alt=" video placeholder" class="vid-s"  onmouseover="startPreview('#video-1')" onmouseout="stopPreview('#video-1')"></video>
                 <span class="video-title">Not a Rick Roll</span>
             </div>
 
             <div class="video-small" >
-                <video src="assets/Sniffing.mp4" alt=" video placeholder" class="vid-s" id="video2" onmouseover="startPreview(this.id)" onmouseout="stopPreview()"></video>
+                <video src="assets/Sniffing.mp4" alt=" video placeholder" class="vid-s" id="video-2" onmouseover="startPreview('#video-2')" onmouseout="stopPreview()"></video>
                 <span class="video-title">10 Facts About ET's Cat!</span>
             </div>
 
             <div class="video-small" >
-                <video src="assets/Cosplay.mp4" alt="video placeholder" class="vid-s" id="video3" onmouseover="startPreview(this.id)" onmouseout="stopPreview()"></video>
+                <video src="assets/Cosplay.mp4" alt="video placeholder" class="vid-s" id="video-3" onmouseover="startPreview('#video-3')" onmouseout="stopPreview('#video-3')"></video>
                 <span class="video-title">5 Cosplay Tips</span>
             </div>
 
             <div class="video-small">
-                <video src="assets/Dinobot.mp4" alt="video placeholder" class="vid-s" id="video4" onmouseover="smallStartPrev(this.id)" onmouseout="stopPreview()"></video>
+                <video src="assets/Dinobot.mp4" alt="video placeholder" class="vid-s" id="video-4" onmouseover="startPreview('#video-4')" onmouseout="stopPreview('#video-4')"></video>
                 <span class="video-title">Boy Battles Dinobot in Thunderdome</span>
             </div>
 
