@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    height: auto;
+    padding: 20px;
+    column-gap: 30px;
+    
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+#search {
+    width: 300px;
+    padding: 5px;
+    border: 3px solid black;
+}
+
+#login {
+    color: white;
+    background-color: blue;
+    width: 80px;
+    border: 3px solid black;
+    box-shadow: 4px 4px black;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#content {
+    display: flex;
+    column-gap: 15px;
+    margin-top: 20px;
+}
+
+#column-1 {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.def-card {
+    display: flex;
+    column-gap: 30px;
+    padding: 20px;
+    border: 3px solid black;
+}
+
+.word {
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    align-items: center;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.like {
+    margin-top: 15px;
+    background-color: rgb(219, 178, 28);
+    border: 3px solid black;
+    box-shadow: 4px 4px black;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.definition {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+}
+
+#add-def {
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    padding: 15px 10px;
+    font-weight: bold;
+    border: 3px solid black;
+}
+
+#you {
+    font-weight: bolder;
+}
+
+#add {
+    visibility: visible;
+    padding: 5px 15px;
+    margin-top: 20px;
+    background-color: rgb(121, 161, 121);
+    border: 3px solid black;
+    box-shadow: 4px 4px black;
+    cursor: pointer;
+}
+
+#like {
+    display: none;
+    width: 150px;
+    flex-direction: column;
+    position: absolute;
+    top: 20px;
+    left: 420px;
+}
+
+#page-says {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    row-gap: 10px;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    border-radius: 25% 25% 0px 0px;    background-color: white;
+}
+
+#close-button {
+    text-justify: center;
+    border: 3px solid black;
+    border-radius: 0px 0px 25% 25%;
+    padding: 5px;
+    background-color: white;
+    cursor: pointer;
+}

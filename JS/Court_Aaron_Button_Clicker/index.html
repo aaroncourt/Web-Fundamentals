@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+<div id="container">
+    <!-- Nav Bar-->
+    <div id="nav">
+        <h1>Dojonary</h1>
+        <input id="search" type="text" placeholder="Search">
+        <Button id="login" type="button" onclick="logging('#login')">Login</Button>    
+    </div>
+
+    <!-- Page Content Columns -->
+    <div id="content">
+        <!-- Column 1 -->
+        <div id="column-1">
+            <!-- Definition Card 1-->
+            <div class="def-card">
+                <!-- Definition Content Columns-->
+                <div class="word">
+                    <h2>ninja</h2>
+                    <h4 class="italic" font-weight: bold>noun</h4>
+                    <h4>Plural: <span class="italic"> ninjas</span></h4>
+                    <button class="like" onclick="likeAlert('#like')">13 likes</button>
+                </div>
+
+                <div class="definition">
+                    <h3>A practitioner skilled in the <a href="">Japanese</a> art of <a href="#">ninjutsu</a></h3>
+                </div>
+            </div>
+
+            <!-- Definition Card 2-->
+            <div class="def-card">
+                <!-- Definition Content Columns-->
+                <div class="word">
+                    <h2>ninja</h2>
+                    <h4 class="italic">noun</h4>
+                    <h4>Plural: <span class="italic"> ninjas</span></h4>
+                    <button class="like" onclick="likeAlert('#like')">37 likes</button>
+                </div>
+
+                <div class="definition">
+                    <h3>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Column 2-->
+        <div id="column-2">
+            <!-- Add Defintiion Card -->
+            <div id="add-def">
+                <h3>Dojonaruy is defined by <span id="you">YOU</span></h3>
+                <button id="add" onclick="hideAlert('#add')">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <!-- Like Alert -->
+    <div id="like">
+        <div id="page-says">
+            <h4>This page says:</h4>
+            <h5>Ninja was liked</h5>
+        </div>
+        <button id="close-button" onclick="closeAlert('#like')"><h4>Ok</h4></button>
+    </div>
+</div>
+
+</body>
+</html>

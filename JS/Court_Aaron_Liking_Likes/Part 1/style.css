@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 1px dashed red;
+}
+
+.posts {
+    justify-content: space-evenly;
+    max-width: 500px;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+
+}
+
+.likes-container {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+
+.like-btn {
+    width: 50px;
+    padding: 5px 10px;
+    background-color: rgb(245, 185, 35);
+    color: black;
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+    cursor: pointer;
+}
+
+.post-text {
+    margin-top: 20px;
+}
