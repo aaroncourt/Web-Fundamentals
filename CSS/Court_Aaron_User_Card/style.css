@@ -1,0 +1,63 @@
+#header {
+    background-color: teal;
+    height: 70px;
+}
+
+#photo{
+    height: 80px;
+    border: solid 5px rgb(185, 184, 184);
+    border-radius: 50%;
+    margin-left: 20px;
+    position: absolute;
+    top: 40px;
+}
+
+#body {
+    border: solid 3px rgb(185, 184, 184);
+    display: flex;
+    flex-direction: column;
+}
+#contents {
+    margin-left: 20px;
+}
+#name {
+    margin-top: 60px;
+    margin-bottom: 5px;
+    font-size: 28pt;
+    font-family: Georgia, serif;
+    font-weight: bolder;
+}
+
+.row {
+    display: flex;
+}
+#marker {
+    height: 17px;
+    margin: 5px;
+}
+
+#location {
+    margin: 5px;
+    font-size: 14pt;
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
+
+.titles {
+    margin: 0px;
+    font-family: Georgia, serif;
+    font-weight: bold;
+}
+
+#gear{
+    height: 17px;
+    margin: 10px 5px;
+}
+
+#profile {
+    margin: 5px;
+    font-size: 14pt;
+    font-family: Georgia, serif;
+    text-decoration: underline;
+    color: blue;
+}

@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+#container {
+    height: auto;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#row1 {
+    height: 250px;
+    width: auto;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#row2 {
+    height: 250px;
+    width: auto;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#row3 {
+    height: 250px;
+    width: auto;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.img {
+    height:auto;
+    max-width: 30%;
+    margin: 10px auto;
+    background-color: white;
+}

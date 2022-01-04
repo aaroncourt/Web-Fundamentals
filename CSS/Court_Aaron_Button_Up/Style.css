@@ -1,0 +1,32 @@
+body {
+    margin: 50px;
+}
+#search {
+    border: 2px solid teal ;
+    background-color: white;
+    border-radius: 25px;
+    width: 125px;
+    height: 25px;
+    color: teal;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+
+#add {
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: turquoise;
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#create {
+    color: white;
+    background-color: blue;
+    font-size: 1em;
+    font-weight: lighter;
+    border: 2px solid black;
+    padding: 5px 25px;
+    box-shadow: 10px 5px 5px black;
+}

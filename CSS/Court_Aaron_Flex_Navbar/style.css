@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    background-color: #46474a ;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+.nav-title {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.nav-links {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: space-between;
+}
+
+.btn {
+    background-color: teal;
+    color: white;
+    box-shadow: black 5px 3px;
+    padding: 5px;
+}

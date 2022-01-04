@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaron Court Belt Exam</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<!-- Title Bar -->
+<div id="title-container">
+    <div id="titlebar">
+        <h1>DojoWeather</h1>
+        <div id="city-list">
+            <a class="city" href="#" onclick="cityAlert('#city-alert')">Burbank</a>
+            <a class="city" href="#" onclick="cityAlert('#city-alert')">Chicago</a>
+            <a class="city" href="#" onclick="cityAlert('#city-alert')">Dallas</a>
+        </div>
+    </div>
+</div>
+
+<!-- Page Containter-->
+<div id="pagecontainer">
+<!-- Nav Bar -->
+    <div id="navbar">
+        <h2>San Jose</h2>
+        <p>show temperature in <select name="show temperature in" id="degree" onchange="temperature(this)">
+                <option value="celcius">°C</option>
+                <option value="fahrenheit">°F</option>
+        </select></p>
+    </div>
+
+<!-- Main Content --> 
+    <div id="main">
+        <div class="column">
+            <p class="day">Today</p>
+            <img src="assets/some_rain.png" alt="some rain icon">
+            <p class="weather">some rain</p>
+            <div class="temps">
+                <div class="high">
+                    <p id="high0">24</p>
+                    <p>°</p>
+                </div>
+
+                <div class="low" >
+                    <p id="low0">18</p>
+                    <p>°</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <p class="day">Tomorrow</p>
+            <img src="assets/some_sun.png" alt="some sun icon">
+            <p class="weather">some sun</p>
+            <div class="temps">
+                <div class="high">
+                    <p id="high1">27</p>
+                    <p>°</p>
+                </div>
+
+                <div class="low" >
+                    <p id="low1">19</p>
+                    <p>°</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <p class="day">Friday</p>
+            <img src="assets/some_clouds.png" alt="some clouds icon">
+            <p class="weather">some clouds</p>
+            <div class="temps">
+                <div class="high">
+                    <p id="high2">21</p>
+                    <p>°</p>
+                </div>
+
+                <div class="low" >
+                    <p id="low2">16</p>
+                    <p>°</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <p class="day">Saturday</p>
+            <img src="assets/some_sun.png" alt="some sun icon">
+            <p class="weather">some sun</p>
+            <div class="temps">
+                <div class="high">
+                    <p id="high3">26</p>
+                    <p>°</p>
+                </div>
+
+                <div class="low" >
+                    <p id="low3">21</p>
+                    <p>°</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cookie Alert -->
+    <div id="cookie-alert">
+        <img id="alert-icon" src="assets/cookie.png" alt="Alert Icon">
+
+        <div id="alert-text">
+            <h3>Stop! Cookie time</h3>
+            <p>We use cookies(sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse oure traffic. <span><a href="#">Read more...</a></span></p>
+        </div>  
+
+        <input class="alert-button" type="button" onclick="closeAlert('#cookie-alert')" value="I Accept" >
+    </div>
+
+<!-- City Alert -->
+    <div id="city-alert">
+        <p>This page says:</p>
+        <p>Loading weather report...</p>
+        <input class="alert-button" type="button" onclick="closeAlert('#city-alert')" value="Ok">
+    </div>
+
+
+</body>
+</html>
